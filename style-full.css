@@ -1,0 +1,33 @@
+body {
+	font-family:Helvetica,Verdana,Arial;
+}
+h1,label, #link, #qrcode, footer {
+	display:block;
+	text-align:center;
+	width:512px;
+	margin:auto;
+	padding:10px;
+}
+label {
+	text-align:left;
+	font-weight:bold;
+}
+#link {
+	border-radius:4px;
+	border:2px solid rgba(0,0,0,0.4);
+	font-size:14px;
+	line-height:18px;
+	height:20px;
+	text-align:left;
+}
+#qrcode {
+	margin-top:10px;
+	border-radius:4px;
+	border:2px solid rgba(0,0,0,0.2);
+}
+footer {
+	margin-top:20px;
+}
+#donate {
+	font-size:8px;
+}
